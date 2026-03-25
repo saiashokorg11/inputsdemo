@@ -18,7 +18,7 @@ on:
 
 jobs:
   inputs-demo:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Deploy the app
         run: echo "Depoly the ${{inputs.tags}} application to ${{inputs.environments}}"
